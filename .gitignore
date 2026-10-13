@@ -1,0 +1,23 @@
+*.iml
+.gradle/
+.kotlin/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+*.keystore
+*.jks
+keystore.properties
+__pycache__/
+*.pyc
+
+# Local debugging artifacts — never publish
+cookies.txt
+log.txt
+*.log
+screen.png
+compose.inc

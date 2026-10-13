@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Cleartext transport supports explicit opt-in; per-server HTTP enforcement is in OmvRpcClient.
+  HTTPS trust is handled in code (system CAs + per-server pinned certificate).
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
